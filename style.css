@@ -706,3 +706,17 @@ footer > p {
     height: 300px;
   }
 }
+
+/* Logo da Retífica Unida */
+.brand img {
+    height: 58px;
+    width: auto;
+    display: block;
+    object-fit: contain;
+}
+
+@media (max-width: 600px) {
+    .brand img {
+        height: 48px;
+    }
+}
