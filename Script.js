@@ -7,7 +7,9 @@ menuBtn.addEventListener('click', () => {
 
 document.querySelectorAll('#nav a').forEach(link => {
   link.addEventListener('click', () => {
-    if (window.innerWidth <= 850) nav.style.display = 'none';
+    if (window.innerWidth <= 850) {
+      nav.style.display = 'none';
+    }
   });
 });
 
